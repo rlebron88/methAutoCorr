@@ -9,6 +9,7 @@ The input file must have three columns:
 1. Chromosome or sequence name.
 2. Start position of the CpG.
 3. Methylation ratio of the CpG.
+
 Every row represents a CpG.
 
 The function returns the autocorrelation for each lag. Among the lags with positive autocorrelation, the one with the highest autocorrelation is the optimum size for the smoothing window.
